@@ -15,7 +15,7 @@ Cr = manchots_ycbcr(:, :, 2);
 
 %% on cherche quelle composente choisir pour segmenter t quelle valeur prendre.
 figure
-subplot(1,2,1);  %On s interresse a la composante pleu cr il y a un fort contratre entre le fond et les manchots
+subplot(1,2,1);  %On s interresse a la composante bleu Cb il y a un fort contratre entre le fond et les manchots
 imshow(Cb);
 
 subplot(1,2,2);
