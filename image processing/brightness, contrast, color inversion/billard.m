@@ -13,7 +13,7 @@ figure;subplot(2,3,1); imshow(billard_rvb); title("RVB");
 billard_gris = rgb2gray(billard_rvb);
 subplot(2,3,2); imshow(billard_gris); title("niveau de gris");
 
-%image binaire (ne peut etre possible qu'avec une image en noveau de gris
+%image binaire (ne peut etre possible qu'avec une image en niveau de gris
 billard_bin = im2bw(billard_gris);
 subplot(2,3,3);imshow(billard_bin);title("binaire");
 
